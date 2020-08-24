@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(226, 252, 132);
+    color: white;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    margin: 40px auto;
+    background-color: rgb(71, 107, 4);
+    color: white;
+}
+
+.todo-form{
+   
+    margin: 40px auto;
+   color: white;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 2; /* Firefox */
+    font-size: bolder;
+  }
+.todo-input{
+    margin: 10px;
+    font-size: bolder;
+    width: 350px;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    background-color: rgb(140, 46, 228);
+}
+.todo-form input:focus,.todo-form button:focus{
+    outline: none;
+}
+.todo-button{
+    border: 0px;
+    width: 100px;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(116, 189, 6);
+    cursor: pointer;
+}
